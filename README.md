@@ -8,7 +8,8 @@ This is a QA assessment for the Company Algorythma
 
 ## For running locally
 
-* Clone git repo
+* Clone git repo `mvn build`
 * run `mvn build`
 * run `mvn clean test`
+* 
 
