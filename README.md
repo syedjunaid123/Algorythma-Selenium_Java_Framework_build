@@ -10,5 +10,5 @@ This is a QA assessment for the Company Algorythma
 
 * Clone git repo
 * run `mvn build`
-* run 'mvn clean test`
+* run `mvn clean test`
 
