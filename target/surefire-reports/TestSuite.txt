@@ -1,0 +1,159 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 16, Errors: 0, Skipped: 1, Time elapsed: 281.196 s <<< FAILURE! - in TestSuite
+logInTest(com.saal.challenge.WebTest)  Time elapsed: 5.006 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: logi' (tried for 20 second(s) with 50 milliseconds interval)
+	at com.saal.challenge.WebTest.logInTest(WebTest.java:176)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"class name","selector":"logi"}
+  (Session info: chrome with embedded Chromium 71.0.3578.98)
+  (Driver info: OperaDriver=2.42.3135 (O58),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'xebias-MacBook-Pro.local', ip: 'fe80:0:0:0:42a:360b:416f:4f7b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.opera.OperaDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.3135 (O58), userDataDir: /var/folders/d8/3khxvbv54kl...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61326}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: c58c96f298e1049aeaad5287966896b2
+*** Element info: {Using=class name, value=logi}
+	at com.saal.challenge.WebTest.logInTest(WebTest.java:176)
+
+afterTestExecution(com.saal.challenge.WebTest)  Time elapsed: 5.007 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.saal.challenge.WebTest.afterTestExecution(WebTest.java:311)
+
+checkoutTest(com.saal.challenge.WebTest)  Time elapsed: 7.583 s  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+  (Driver info: OperaDriver=2.42.3135 (O58),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'xebias-MacBook-Pro.local', ip: 'fe80:0:0:0:42a:360b:416f:4f7b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.opera.OperaDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.3135 (O58), userDataDir: /var/folders/d8/3khxvbv54kl...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61326}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: c58c96f298e1049aeaad5287966896b2
+*** Element info: {Using=class name, value=logi}
+	at com.saal.challenge.WebTest.checkoutTest(WebTest.java:228)
+
+afterTestExecution(com.saal.challenge.WebTest)  Time elapsed: 7.583 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.saal.challenge.WebTest.afterTestExecution(WebTest.java:311)
+
+checkoutTest(com.saal.challenge.WebTest)  Time elapsed: 0.604 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: logi' (tried for 20 second(s) with 50 milliseconds interval)
+	at com.saal.challenge.WebTest.checkoutTest(WebTest.java:228)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"class name","selector":"logi"}
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'xebias-MacBook-Pro.local', ip: 'fe80:0:0:0:42a:360b:416f:4f7b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: /var/folders/d8/3khxvbv54kl...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61428}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: b7ec51e22b6832f986463ef8179a9630
+*** Element info: {Using=class name, value=logi}
+	at com.saal.challenge.WebTest.checkoutTest(WebTest.java:228)
+
+afterTestExecution(com.saal.challenge.WebTest)  Time elapsed: 0.604 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.saal.challenge.WebTest.afterTestExecution(WebTest.java:311)
+
+logInTest(com.saal.challenge.WebTest)  Time elapsed: 16.285 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: logi' (tried for 20 second(s) with 50 milliseconds interval)
+	at com.saal.challenge.WebTest.logInTest(WebTest.java:176)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"class name","selector":"logi"}
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'xebias-MacBook-Pro.local', ip: 'fe80:0:0:0:42a:360b:416f:4f7b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: /var/folders/d8/3khxvbv54kl...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61428}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: b7ec51e22b6832f986463ef8179a9630
+*** Element info: {Using=class name, value=logi}
+	at com.saal.challenge.WebTest.logInTest(WebTest.java:176)
+
+afterTestExecution(com.saal.challenge.WebTest)  Time elapsed: 16.286 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.saal.challenge.WebTest.afterTestExecution(WebTest.java:311)
+
+signInTest(com.saal.challenge.WebTest)  Time elapsed: 20.164 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: logi' (tried for 20 second(s) with 50 milliseconds interval)
+	at com.saal.challenge.WebTest.signInTest(WebTest.java:95)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"class name","selector":"logi"}
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'xebias-MacBook-Pro.local', ip: 'fe80:0:0:0:42a:360b:416f:4f7b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: /var/folders/d8/3khxvbv54kl...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61428}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: b7ec51e22b6832f986463ef8179a9630
+*** Element info: {Using=class name, value=logi}
+	at com.saal.challenge.WebTest.signInTest(WebTest.java:95)
+
+afterTestExecution(com.saal.challenge.WebTest)  Time elapsed: 20.164 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.saal.challenge.WebTest.afterTestExecution(WebTest.java:311)
+
+checkoutTest(com.saal.challenge.WebTest)  Time elapsed: 0.097 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: logi' (tried for 20 second(s) with 50 milliseconds interval)
+	at com.saal.challenge.WebTest.checkoutTest(WebTest.java:228)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .logi
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'xebias-MacBook-Pro.local', ip: 'fe80:0:0:0:42a:360b:416f:4f7b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 27743, moz:profile: /var/folders/d8/3khxvbv54kl..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6c046d64-fc5c-6943-ae48-d05c510bddbc
+*** Element info: {Using=class name, value=logi}
+	at com.saal.challenge.WebTest.checkoutTest(WebTest.java:228)
+
+afterTestExecution(com.saal.challenge.WebTest)  Time elapsed: 0.098 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.saal.challenge.WebTest.afterTestExecution(WebTest.java:311)
+
+logInTest(com.saal.challenge.WebTest)  Time elapsed: 0.116 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: logi' (tried for 20 second(s) with 50 milliseconds interval)
+	at com.saal.challenge.WebTest.logInTest(WebTest.java:176)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .logi
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'xebias-MacBook-Pro.local', ip: 'fe80:0:0:0:42a:360b:416f:4f7b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 27743, moz:profile: /var/folders/d8/3khxvbv54kl..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6c046d64-fc5c-6943-ae48-d05c510bddbc
+*** Element info: {Using=class name, value=logi}
+	at com.saal.challenge.WebTest.logInTest(WebTest.java:176)
+
+afterTestExecution(com.saal.challenge.WebTest)  Time elapsed: 0.117 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.saal.challenge.WebTest.afterTestExecution(WebTest.java:311)
+
+signInTest(com.saal.challenge.WebTest)  Time elapsed: 20.106 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: logi' (tried for 20 second(s) with 50 milliseconds interval)
+	at com.saal.challenge.WebTest.signInTest(WebTest.java:95)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .logi
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'xebias-MacBook-Pro.local', ip: 'fe80:0:0:0:42a:360b:416f:4f7b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 27743, moz:profile: /var/folders/d8/3khxvbv54kl..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6c046d64-fc5c-6943-ae48-d05c510bddbc
+*** Element info: {Using=class name, value=logi}
+	at com.saal.challenge.WebTest.signInTest(WebTest.java:95)
+
+afterTestExecution(com.saal.challenge.WebTest)  Time elapsed: 20.106 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.saal.challenge.WebTest.afterTestExecution(WebTest.java:311)
+

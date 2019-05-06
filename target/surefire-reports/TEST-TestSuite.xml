@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="281.196" tests="17" errors="0" skipped="1" failures="16">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/xebia/Downloads/qa-test-saal/target/test-classes:/Users/xebia/Downloads/qa-test-saal/target/classes:/Users/xebia/.m2/repository/org/seleniumhq/selenium/selenium-java/3.11.0/selenium-java-3.11.0.jar:/Users/xebia/.m2/repository/org/seleniumhq/selenium/selenium-api/3.11.0/selenium-api-3.11.0.jar:/Users/xebia/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.11.0/selenium-chrome-driver-3.11.0.jar:/Users/xebia/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.11.0/selenium-edge-driver-3.11.0.jar:/Users/xebia/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.11.0/selenium-firefox-driver-3.11.0.jar:/Users/xebia/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.11.0/selenium-ie-driver-3.11.0.jar:/Users/xebia/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.11.0/selenium-opera-driver-3.11.0.jar:/Users/xebia/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.11.0/selenium-remote-driver-3.11.0.jar:/Users/xebia/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.11.0/selenium-safari-driver-3.11.0.jar:/Users/xebia/.m2/repository/org/seleniumhq/selenium/selenium-support/3.11.0/selenium-support-3.11.0.jar:/Users/xebia/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/Users/xebia/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/xebia/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/xebia/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/xebia/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/xebia/.m2/repository/com/google/guava/guava/23.6-jre/guava-23.6-jre.jar:/Users/xebia/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/xebia/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/xebia/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/xebia/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/xebia/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/xebia/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/xebia/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/xebia/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/xebia/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/Users/xebia/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/xebia/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/xebia/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/xebia/.m2/repository/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17.jar:/Users/xebia/.m2/repository/org/apache/poi/poi/3.17/poi-3.17.jar:/Users/xebia/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/Users/xebia/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.17/poi-ooxml-schemas-3.17.jar:/Users/xebia/.m2/repository/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar:/Users/xebia/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/xebia/.m2/repository/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.jar:/Users/xebia/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar:/Users/xebia/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/xebia/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/xebia/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/xebia/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/xebia/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/xebia/.m2/repository/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar:/Users/xebia/.m2/repository/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar:/Users/xebia/.m2/repository/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2.jar:/Users/xebia/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/xebia/.m2/repository/io/github/bonigarcia/webdrivermanager/3.3.0/webdrivermanager-3.3.0.jar:/Users/xebia/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/xebia/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/xebia/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/xebia/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/xebia/Downloads/qa-test-saal/target/surefire/surefirebooter4710503056874334072.jar /Users/xebia/Downloads/qa-test-saal/target/surefire 2019-05-06T13-26-05_559-jvmRun1 surefire8441758981047098tmp surefire_05734575955776115044tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/xebia/Downloads/qa-test-saal/target/test-classes:/Users/xebia/Downloads/qa-test-saal/target/classes:/Users/xebia/.m2/repository/org/seleniumhq/selenium/selenium-java/3.11.0/selenium-java-3.11.0.jar:/Users/xebia/.m2/repository/org/seleniumhq/selenium/selenium-api/3.11.0/selenium-api-3.11.0.jar:/Users/xebia/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.11.0/selenium-chrome-driver-3.11.0.jar:/Users/xebia/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.11.0/selenium-edge-driver-3.11.0.jar:/Users/xebia/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.11.0/selenium-firefox-driver-3.11.0.jar:/Users/xebia/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.11.0/selenium-ie-driver-3.11.0.jar:/Users/xebia/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.11.0/selenium-opera-driver-3.11.0.jar:/Users/xebia/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.11.0/selenium-remote-driver-3.11.0.jar:/Users/xebia/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.11.0/selenium-safari-driver-3.11.0.jar:/Users/xebia/.m2/repository/org/seleniumhq/selenium/selenium-support/3.11.0/selenium-support-3.11.0.jar:/Users/xebia/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/Users/xebia/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/xebia/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/xebia/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/xebia/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/xebia/.m2/repository/com/google/guava/guava/23.6-jre/guava-23.6-jre.jar:/Users/xebia/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/xebia/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/xebia/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/xebia/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/xebia/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/xebia/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/xebia/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/xebia/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/xebia/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/Users/xebia/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/xebia/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/xebia/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/xebia/.m2/repository/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17.jar:/Users/xebia/.m2/repository/org/apache/poi/poi/3.17/poi-3.17.jar:/Users/xebia/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/Users/xebia/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.17/poi-ooxml-schemas-3.17.jar:/Users/xebia/.m2/repository/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar:/Users/xebia/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/xebia/.m2/repository/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.jar:/Users/xebia/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar:/Users/xebia/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/xebia/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/xebia/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/xebia/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/xebia/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/xebia/.m2/repository/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar:/Users/xebia/.m2/repository/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar:/Users/xebia/.m2/repository/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2.jar:/Users/xebia/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/xebia/.m2/repository/io/github/bonigarcia/webdrivermanager/3.3.0/webdrivermanager-3.3.0.jar:/Users/xebia/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/xebia/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/xebia/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/xebia/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/xebia"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/xebia/Downloads/qa-test-saal"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/xebia/Downloads/qa-test-saal/target/surefire/surefirebooter4710503056874334072.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="user.name" value="xebia"/>
+    <property name="path.separator" value=":"/>
+    <property name="MY_VARIABLE" value="SIT"/>
+    <property name="os.version" value="10.13.6"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/xebia/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/d8/3khxvbv54klf1qvlcdx507c40000gn/T/"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="user.dir" value="/Users/xebia/Downloads/qa-test-saal"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/xebia/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.ext.dirs" value="/Users/xebia/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="logInTest" classname="com.saal.challenge.WebTest" time="5.006">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.className: logi&apos; (tried for 20 second(s) with 50 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: logi' (tried for 20 second(s) with 50 milliseconds interval)
+	at com.saal.challenge.WebTest.logInTest(WebTest.java:176)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"class name","selector":"logi"}
+  (Session info: chrome with embedded Chromium 71.0.3578.98)
+  (Driver info: OperaDriver=2.42.3135 (O58),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'xebias-MacBook-Pro.local', ip: 'fe80:0:0:0:42a:360b:416f:4f7b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.opera.OperaDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.3135 (O58), userDataDir: /var/folders/d8/3khxvbv54kl...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61326}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: c58c96f298e1049aeaad5287966896b2
+*** Element info: {Using=class name, value=logi}
+	at com.saal.challenge.WebTest.logInTest(WebTest.java:176)
+</failure>
+    <system-out><![CDATA[*********** Test Skipped : Test-Execution - Opera Browser
+Property -----> null
+Property -----> null
+Property -----> null
+*********** Test Started : logInTest
+*********** Test Started : checkoutTest
+*********** Test Failure : logInTest
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting OperaDriver 2.42.3135 (O58) on port 18922
+Only local connections are allowed.
+Starting OperaDriver 2.42.3135 (O58) on port 4443
+Only local connections are allowed.
+Starting OperaDriver 2.42.3135 (O58) on port 7475
+Only local connections are allowed.
+May 06, 2019 1:26:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+May 06, 2019 1:26:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+May 06, 2019 1:26:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="logInTest" classname="com.saal.challenge.WebTest" time="16.285">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.className: logi&apos; (tried for 20 second(s) with 50 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: logi' (tried for 20 second(s) with 50 milliseconds interval)
+	at com.saal.challenge.WebTest.logInTest(WebTest.java:176)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"class name","selector":"logi"}
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'xebias-MacBook-Pro.local', ip: 'fe80:0:0:0:42a:360b:416f:4f7b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: /var/folders/d8/3khxvbv54kl...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61428}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: b7ec51e22b6832f986463ef8179a9630
+*** Element info: {Using=class name, value=logi}
+	at com.saal.challenge.WebTest.logInTest(WebTest.java:176)
+</failure>
+    <system-out><![CDATA[*********** Test Failure : logInTest
+]]></system-out>
+  </testcase>
+  <testcase name="logInTest" classname="com.saal.challenge.WebTest" time="0.116">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.className: logi&apos; (tried for 20 second(s) with 50 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: logi' (tried for 20 second(s) with 50 milliseconds interval)
+	at com.saal.challenge.WebTest.logInTest(WebTest.java:176)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .logi
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'xebias-MacBook-Pro.local', ip: 'fe80:0:0:0:42a:360b:416f:4f7b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 27743, moz:profile: /var/folders/d8/3khxvbv54kl..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6c046d64-fc5c-6943-ae48-d05c510bddbc
+*** Element info: {Using=class name, value=logi}
+	at com.saal.challenge.WebTest.logInTest(WebTest.java:176)
+</failure>
+    <system-out><![CDATA[*********** Test Failure : logInTest
+]]></system-out>
+  </testcase>
+  <testcase name="afterTestExecution" classname="com.saal.challenge.WebTest" time="5.007">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.saal.challenge.WebTest.afterTestExecution(WebTest.java:311)
+</failure>
+  </testcase>
+  <testcase name="afterTestExecution" classname="com.saal.challenge.WebTest" time="7.583">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.saal.challenge.WebTest.afterTestExecution(WebTest.java:311)
+</failure>
+  </testcase>
+  <testcase name="afterTestExecution" classname="com.saal.challenge.WebTest" time="0.604">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.saal.challenge.WebTest.afterTestExecution(WebTest.java:311)
+</failure>
+  </testcase>
+  <testcase name="afterTestExecution" classname="com.saal.challenge.WebTest" time="16.286">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.saal.challenge.WebTest.afterTestExecution(WebTest.java:311)
+</failure>
+  </testcase>
+  <testcase name="afterTestExecution" classname="com.saal.challenge.WebTest" time="20.164">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.saal.challenge.WebTest.afterTestExecution(WebTest.java:311)
+</failure>
+  </testcase>
+  <testcase name="afterTestExecution" classname="com.saal.challenge.WebTest" time="0.098">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.saal.challenge.WebTest.afterTestExecution(WebTest.java:311)
+</failure>
+  </testcase>
+  <testcase name="afterTestExecution" classname="com.saal.challenge.WebTest" time="0.117">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.saal.challenge.WebTest.afterTestExecution(WebTest.java:311)
+</failure>
+  </testcase>
+  <testcase name="afterTestExecution" classname="com.saal.challenge.WebTest" time="20.106">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.saal.challenge.WebTest.afterTestExecution(WebTest.java:311)
+</failure>
+  </testcase>
+  <testcase name="signInTest" classname="com.saal.challenge.WebTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[*********** Test Skipped : signInTest
+]]></system-out>
+  </testcase>
+  <testcase name="signInTest" classname="com.saal.challenge.WebTest" time="20.164">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.className: logi&apos; (tried for 20 second(s) with 50 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: logi' (tried for 20 second(s) with 50 milliseconds interval)
+	at com.saal.challenge.WebTest.signInTest(WebTest.java:95)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"class name","selector":"logi"}
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'xebias-MacBook-Pro.local', ip: 'fe80:0:0:0:42a:360b:416f:4f7b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: /var/folders/d8/3khxvbv54kl...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61428}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: b7ec51e22b6832f986463ef8179a9630
+*** Element info: {Using=class name, value=logi}
+	at com.saal.challenge.WebTest.signInTest(WebTest.java:95)
+</failure>
+    <system-out><![CDATA[*********** Test Failure : signInTest
+]]></system-out>
+  </testcase>
+  <testcase name="signInTest" classname="com.saal.challenge.WebTest" time="20.106">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.className: logi&apos; (tried for 20 second(s) with 50 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: logi' (tried for 20 second(s) with 50 milliseconds interval)
+	at com.saal.challenge.WebTest.signInTest(WebTest.java:95)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .logi
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'xebias-MacBook-Pro.local', ip: 'fe80:0:0:0:42a:360b:416f:4f7b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 27743, moz:profile: /var/folders/d8/3khxvbv54kl..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6c046d64-fc5c-6943-ae48-d05c510bddbc
+*** Element info: {Using=class name, value=logi}
+	at com.saal.challenge.WebTest.signInTest(WebTest.java:95)
+</failure>
+    <system-out><![CDATA[*********** Test Failure : signInTest
+]]></system-out>
+    <system-err><![CDATA[JavaScript warning: https://www.prestashop.com/sites/default/files/advagg_js/js__q0epUEzF1b9rEZ3uVNsJo_ucO43zx3Ju7omC4cEttXg__p9vYKpFhujTn0qpSAs65Dsi4WGQ1nt65zknQTCZJP2o__XniqiuBQCMgafKBNaQC5aSDOu9QBqdh5VyeTYtpUNZQ.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+]]></system-err>
+  </testcase>
+  <testcase name="checkoutTest" classname="com.saal.challenge.WebTest" time="7.583">
+    <failure message="invalid session id&#10;  (Driver info: OperaDriver=2.42.3135 (O58),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;xebias-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:42a:360b:416f:4f7b%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: org.openqa.selenium.opera.OperaDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.3135 (O58), userDataDir: /var/folders/d8/3khxvbv54kl...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61326}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}&#10;Session ID: c58c96f298e1049aeaad5287966896b2&#10;*** Element info: {Using=class name, value=logi}" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+  (Driver info: OperaDriver=2.42.3135 (O58),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'xebias-MacBook-Pro.local', ip: 'fe80:0:0:0:42a:360b:416f:4f7b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.opera.OperaDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.3135 (O58), userDataDir: /var/folders/d8/3khxvbv54kl...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61326}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: c58c96f298e1049aeaad5287966896b2
+*** Element info: {Using=class name, value=logi}
+	at com.saal.challenge.WebTest.checkoutTest(WebTest.java:228)
+</failure>
+    <system-out><![CDATA[*********** Test Failure : checkoutTest
+]]></system-out>
+  </testcase>
+  <testcase name="checkoutTest" classname="com.saal.challenge.WebTest" time="0.604">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.className: logi&apos; (tried for 20 second(s) with 50 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: logi' (tried for 20 second(s) with 50 milliseconds interval)
+	at com.saal.challenge.WebTest.checkoutTest(WebTest.java:228)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"class name","selector":"logi"}
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'xebias-MacBook-Pro.local', ip: 'fe80:0:0:0:42a:360b:416f:4f7b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: /var/folders/d8/3khxvbv54kl...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61428}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: b7ec51e22b6832f986463ef8179a9630
+*** Element info: {Using=class name, value=logi}
+	at com.saal.challenge.WebTest.checkoutTest(WebTest.java:228)
+</failure>
+    <system-out><![CDATA[*********** Tests Completed : Test-Execution - Opera Browser
+*********** Test Skipped : Test-Execution - Chrome Browser
+Property -----> null
+Property -----> null
+Property -----> null
+*********** Test Started : checkoutTest
+*********** Test Started : logInTest
+*********** Test Started : signInTest
+*********** Test Failure : checkoutTest
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 7801
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 48070
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 2607
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+May 06, 2019 1:26:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+May 06, 2019 1:26:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+May 06, 2019 1:26:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="checkoutTest" classname="com.saal.challenge.WebTest" time="0.097">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.className: logi&apos; (tried for 20 second(s) with 50 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: logi' (tried for 20 second(s) with 50 milliseconds interval)
+	at com.saal.challenge.WebTest.checkoutTest(WebTest.java:228)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .logi
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'xebias-MacBook-Pro.local', ip: 'fe80:0:0:0:42a:360b:416f:4f7b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 27743, moz:profile: /var/folders/d8/3khxvbv54kl..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6c046d64-fc5c-6943-ae48-d05c510bddbc
+*** Element info: {Using=class name, value=logi}
+	at com.saal.challenge.WebTest.checkoutTest(WebTest.java:228)
+</failure>
+    <system-out><![CDATA[*********** Tests Completed : Test-Execution - Chrome Browser
+*********** Test Skipped : Test-Execution - Firefox Browser
+Property -----> null
+Property -----> null
+Property -----> null
+*********** Test Started : checkoutTest
+*********** Test Started : logInTest
+*********** Test Started : signInTest
+*********** Test Failure : checkoutTest
+]]></system-out>
+    <system-err><![CDATA[1557134850060	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/d8/3khxvbv54klf1qvlcdx507c40000gn/T/rust_mozprofile.Orfh3UB9P558"
+1557134850317	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/d8/3khxvbv54klf1qvlcdx507c40000gn/T/rust_mozprofile.QuP1y5Q91avZ"
+1557134850720	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/d8/3khxvbv54klf1qvlcdx507c40000gn/T/rust_mozprofile.Abhtr3sFaGfj"
+1557134851812	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557134851812	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557134851812	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557134852004	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557134852004	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557134852004	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557134854954	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557134854955	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557134854955	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557134863276	Marionette	INFO	Listening on port 61594
+1557134863333	Marionette	WARN	TLS certificate errors will be ignored for this session
+May 06, 2019 1:27:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1557134864232	Marionette	INFO	Listening on port 61681
+1557134864745	Marionette	WARN	TLS certificate errors will be ignored for this session
+May 06, 2019 1:27:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1557134869304	Marionette	INFO	Listening on port 61781
+1557134869515	Marionette	WARN	TLS certificate errors will be ignored for this session
+May 06, 2019 1:27:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,570 @@
+[INFO ] 2019-05-05 16:24:45.677 [main] WebTest - This is information Message
+[ERROR] 2019-05-05 16:24:45.681 [main] WebTest - This is Error Message
+[FATAL] 2019-05-05 16:24:45.681 [main] WebTest - This is fatal Message
+[WARN ] 2019-05-05 16:24:45.681 [main] WebTest - warn message
+[INFO ] 2019-05-05 16:26:54.112 [main] WebTest - This is information Message
+[ERROR] 2019-05-05 16:26:54.116 [main] WebTest - This is Error Message
+[FATAL] 2019-05-05 16:26:54.117 [main] WebTest - This is fatal Message
+[WARN ] 2019-05-05 16:26:54.117 [main] WebTest - warn message
+[INFO ] 2019-05-05 16:46:50.293 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-05 16:46:53.275 [main] WebTest - LogIn is completed by entering username and password
+[INFO ] 2019-05-05 16:47:00.810 [main] WebTest - Click on Women button
+[INFO ] 2019-05-05 16:47:00.949 [main] WebTest - Selecting the dress
+[INFO ] 2019-05-05 16:47:04.360 [main] WebTest - Viewing the dress in maximized view in next page
+[INFO ] 2019-05-05 16:47:04.443 [main] WebTest - Clicking on Submit button for checkout
+[INFO ] 2019-05-05 16:47:08.954 [main] WebTest - Clicking on Checkout button to proceed
+[INFO ] 2019-05-05 16:47:11.065 [main] WebTest - Clicking on Checkout button to proceed in the next page again
+[INFO ] 2019-05-05 16:47:13.311 [main] WebTest - Clicking on Next step button to process address
+[INFO ] 2019-05-05 16:47:13.397 [main] WebTest - Selecting the Terms and conditions checkbox
+[INFO ] 2019-05-05 16:47:15.915 [main] WebTest - clciking on next to complete the shipping step
+[INFO ] 2019-05-05 16:47:17.390 [main] WebTest - Select button - Pay by Bank Wire
+[INFO ] 2019-05-05 16:47:20.948 [main] WebTest - Click on Confirm Order Button
+[INFO ] 2019-05-05 16:47:21.035 [main] WebTest - Fetching the text Order Confirmation
+[INFO ] 2019-05-05 16:47:21.038 [main] WebTest - Verifying text in application if its ORDER Confirmation
+[INFO ] 2019-05-05 16:47:21.073 [main] WebTest - Validating if the shipping section is displayed
+[INFO ] 2019-05-05 16:47:21.106 [main] WebTest - Validating if the Confirmation Step End section is displayed
+[INFO ] 2019-05-05 16:47:21.189 [main] WebTest - Verifying text ORDER Confirmation is displayed
+[INFO ] 2019-05-05 16:47:21.195 [main] WebTest - Validating if the 'order-confirmation' is appended in page URL
+[INFO ] 2019-05-05 20:21:35.878 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-05 20:21:39.648 [main] WebTest - LogIn is completed by entering username and password
+[INFO ] 2019-05-05 20:21:47.195 [main] WebTest - Click on Women button
+[INFO ] 2019-05-05 20:21:47.331 [main] WebTest - Selecting the dress
+[INFO ] 2019-05-05 20:21:50.841 [main] WebTest - Viewing the dress in maximized view in next page
+[INFO ] 2019-05-05 20:21:50.934 [main] WebTest - Clicking on Submit button for checkout
+[INFO ] 2019-05-05 20:21:55.696 [main] WebTest - Clicking on Checkout button to proceed
+[INFO ] 2019-05-05 20:21:59.580 [main] WebTest - Clicking on Checkout button to proceed in the next page again
+[INFO ] 2019-05-05 20:22:01.576 [main] WebTest - Clicking on Next step button to process address
+[INFO ] 2019-05-05 20:22:01.657 [main] WebTest - Selecting the Terms and conditions checkbox
+[INFO ] 2019-05-05 20:22:04.178 [main] WebTest - Clicking on next to complete the shipping step
+[INFO ] 2019-05-05 20:22:05.837 [main] WebTest - Select button - Pay by Bank Wire
+[INFO ] 2019-05-05 20:22:09.323 [main] WebTest - Click on Confirm Order Button
+[INFO ] 2019-05-05 20:22:09.381 [main] WebTest - Fetching the text Order Confirmation
+[INFO ] 2019-05-05 20:22:09.383 [main] WebTest - Verifying text in application if its ORDER Confirmation
+[INFO ] 2019-05-05 20:22:09.409 [main] WebTest - Validating if the shipping section is displayed
+[INFO ] 2019-05-05 20:22:09.433 [main] WebTest - Validating if the Confirmation Step End section is displayed
+[INFO ] 2019-05-05 20:22:09.484 [main] WebTest - Verifying text ORDER Confirmation is displayed
+[INFO ] 2019-05-05 20:22:09.490 [main] WebTest - Validating if the 'order-confirmation' is appended in page URL
+[INFO ] 2019-05-05 20:24:24.129 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-05 20:24:27.096 [main] WebTest - LogIn is completed by entering username and password
+[INFO ] 2019-05-05 20:24:34.440 [main] WebTest - Click on Women button
+[INFO ] 2019-05-05 20:24:34.575 [main] WebTest - Selecting the dress
+[INFO ] 2019-05-05 20:24:38.506 [main] WebTest - Viewing the dress in maximized view in next page
+[INFO ] 2019-05-05 20:24:38.591 [main] WebTest - Clicking on Submit button for checkout
+[INFO ] 2019-05-05 20:24:43.719 [main] WebTest - Clicking on Checkout button to proceed
+[INFO ] 2019-05-05 20:24:46.143 [main] WebTest - Clicking on Checkout button to proceed in the next page again
+[INFO ] 2019-05-05 20:24:47.967 [main] WebTest - Clicking on Next step button to process address
+[INFO ] 2019-05-05 20:24:48.061 [main] WebTest - Selecting the Terms and conditions checkbox
+[INFO ] 2019-05-05 20:24:50.351 [main] WebTest - Clicking on next to complete the shipping step
+[INFO ] 2019-05-05 20:24:52.037 [main] WebTest - Select button - Pay by Bank Wire
+[INFO ] 2019-05-05 20:45:06.865 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-05 20:45:10.143 [main] WebTest - LogIn is completed by entering username and password
+[INFO ] 2019-05-05 20:45:19.090 [main] WebTest - Click on Women button
+[INFO ] 2019-05-05 20:45:19.234 [main] WebTest - Selecting the dress
+[INFO ] 2019-05-05 20:45:22.955 [main] WebTest - Viewing the dress in maximized view in next page
+[INFO ] 2019-05-05 20:59:01.730 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-05 20:59:04.407 [main] WebTest - LogIn is completed by entering username and password
+[INFO ] 2019-05-05 20:59:11.981 [main] WebTest - Click on Women button
+[INFO ] 2019-05-05 20:59:12.136 [main] WebTest - Selecting the dress
+[INFO ] 2019-05-05 20:59:15.914 [main] WebTest - Viewing the dress in maximized view in next page
+[INFO ] 2019-05-05 21:17:18.611 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-05 21:17:22.122 [main] WebTest - LogIn is completed by entering username and password
+[INFO ] 2019-05-05 21:17:29.543 [main] WebTest - Click on Women button
+[INFO ] 2019-05-05 21:17:29.681 [main] WebTest - Selecting the dress
+[INFO ] 2019-05-05 21:17:33.303 [main] WebTest - Viewing the dress in maximized view in next page
+[INFO ] 2019-05-05 21:23:38.496 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-05 21:23:42.160 [main] WebTest - LogIn is completed by entering username and password
+[INFO ] 2019-05-05 21:23:51.050 [main] WebTest - Click on Women button
+[INFO ] 2019-05-05 21:23:51.189 [main] WebTest - Selecting the dress
+[INFO ] 2019-05-05 21:23:55.090 [main] WebTest - Viewing the dress in maximized view in next page
+[INFO ] 2019-05-05 21:28:23.806 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-05 21:28:32.048 [main] WebTest - LogIn is completed by entering username and password
+[INFO ] 2019-05-05 21:28:45.278 [main] WebTest - Click on Women button
+[INFO ] 2019-05-05 21:28:45.420 [main] WebTest - Selecting the dress
+[INFO ] 2019-05-05 21:28:51.625 [main] WebTest - Viewing the dress in maximized view in next page
+[INFO ] 2019-05-05 21:31:37.737 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-05 21:31:45.254 [main] WebTest - LogIn is completed by entering username and password
+[INFO ] 2019-05-05 21:32:07.736 [main] WebTest - Click on Women button
+[INFO ] 2019-05-05 21:32:07.820 [main] WebTest - Selecting the dress
+[INFO ] 2019-05-05 21:32:23.467 [main] WebTest - Viewing the dress in maximized view in next page
+[INFO ] 2019-05-05 21:32:23.595 [main] WebTest - Clicking on Submit button for checkout
+[INFO ] 2019-05-05 21:32:47.481 [main] WebTest - Clicking on Checkout button to proceed
+[INFO ] 2019-05-05 21:32:58.119 [main] WebTest - Clicking on Checkout button to proceed in the next page again
+[INFO ] 2019-05-05 21:33:08.151 [main] WebTest - Clicking on Next step button to process address
+[INFO ] 2019-05-05 21:33:08.235 [main] WebTest - Selecting the Terms and conditions checkbox
+[INFO ] 2019-05-05 21:33:20.536 [main] WebTest - Clicking on next to complete the shipping step
+[INFO ] 2019-05-05 21:33:26.064 [main] WebTest - Select button - Pay by Bank Wire
+[INFO ] 2019-05-05 21:33:47.803 [main] WebTest - Click on Confirm Order Button
+[INFO ] 2019-05-05 21:33:47.849 [main] WebTest - Fetching the text Order Confirmation
+[INFO ] 2019-05-05 21:33:47.853 [main] WebTest - Verifying text in application if its ORDER Confirmation
+[INFO ] 2019-05-05 21:33:47.877 [main] WebTest - Validating if the shipping section is displayed
+[INFO ] 2019-05-05 21:33:47.905 [main] WebTest - Validating if the Confirmation Step End section is displayed
+[INFO ] 2019-05-05 21:33:47.955 [main] WebTest - Verifying text ORDER Confirmation is displayed
+[INFO ] 2019-05-05 21:33:47.960 [main] WebTest - Validating if the 'order-confirmation' is appended in page URL
+[INFO ] 2019-05-06 00:22:35.133 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 00:22:38.502 [main] WebTest - LogIn is completed by entering username and password
+[INFO ] 2019-05-06 00:22:46.827 [main] WebTest - Click on Women button
+[INFO ] 2019-05-06 00:22:46.932 [main] WebTest - Selecting the dress
+[INFO ] 2019-05-06 00:23:01.301 [main] WebTest - Viewing the dress in maximized view in next page
+[INFO ] 2019-05-06 00:23:01.449 [main] WebTest - Clicking on Submit button for checkout
+[INFO ] 2019-05-06 00:23:07.623 [main] WebTest - Clicking on Checkout button to proceed
+[INFO ] 2019-05-06 00:23:09.792 [main] WebTest - Clicking on Checkout button to proceed in the next page again
+[INFO ] 2019-05-06 00:23:11.576 [main] WebTest - Clicking on Next step button to process address
+[INFO ] 2019-05-06 00:23:11.680 [main] WebTest - Selecting the Terms and conditions checkbox
+[INFO ] 2019-05-06 00:23:15.115 [main] WebTest - Clicking on next to complete the shipping step
+[INFO ] 2019-05-06 00:23:16.735 [main] WebTest - Select button - Pay by Bank Wire
+[INFO ] 2019-05-06 00:23:37.943 [main] WebTest - Click on Confirm Order Button
+[INFO ] 2019-05-06 00:23:37.988 [main] WebTest - Fetching the text Order Confirmation
+[INFO ] 2019-05-06 00:23:37.992 [main] WebTest - Verifying text in application if its ORDER Confirmation
+[INFO ] 2019-05-06 00:23:38.016 [main] WebTest - Validating if the shipping section is displayed
+[INFO ] 2019-05-06 00:23:38.041 [main] WebTest - Validating if the Confirmation Step End section is displayed
+[INFO ] 2019-05-06 00:23:38.088 [main] WebTest - Verifying text ORDER Confirmation is displayed
+[INFO ] 2019-05-06 00:23:38.093 [main] WebTest - Validating if the 'order-confirmation' is appended in page URL
+[INFO ] 2019-05-06 00:25:54.728 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 00:25:57.794 [main] WebTest - LogIn is completed by entering username and password
+[INFO ] 2019-05-06 00:25:57.842 [main] WebTest - Fetching the Heading after successfull login
+[INFO ] 2019-05-06 00:25:57.892 [main] WebTest - Fetching the Fullname of the sign in user
+[INFO ] 2019-05-06 00:25:57.893 [main] WebTest - Validating if the Heading displayed is correct
+[INFO ] 2019-05-06 00:25:57.893 [main] WebTest - Validating if the Fullname displayed is correct
+[INFO ] 2019-05-06 00:25:57.939 [main] WebTest - Fetching & Validating if the Account Information is displayed correctly
+[INFO ] 2019-05-06 00:25:57.965 [main] WebTest - Validating the logout button is displayed or not
+[INFO ] 2019-05-06 00:25:57.970 [main] WebTest - Validating if the 'controller=my-account' is appended in page URL
+[INFO ] 2019-05-06 00:55:50.544 [TestNG-test=Test-challenge(failed)-3] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 00:55:50.833 [TestNG-test=Test-challenge(failed)-3] WebTest - Entering Email Id to Create New Account
+[INFO ] 2019-05-06 00:55:53.230 [TestNG-test=Test-challenge(failed)-1] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 00:55:53.317 [TestNG-test=Test-challenge(failed)-3] WebTest - Clicking on Create Account Button
+[INFO ] 2019-05-06 00:58:27.969 [TestNG-test=Test(failed)-2] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 00:59:05.744 [TestNG-test=Test(failed)-3] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 00:59:06.066 [TestNG-test=Test(failed)-3] WebTest - Entering Email Id to Create New Account
+[INFO ] 2019-05-06 00:59:08.743 [TestNG-test=Test(failed)-2] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 01:01:01.324 [TestNG-test=Test-challenge-2] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 01:01:03.638 [TestNG-test=Test-challenge-1] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 01:04:37.024 [TestNG-test=Test-challenge-3] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 01:04:37.261 [TestNG-test=Test-challenge-3] WebTest - Entering Email Id to Create New Account
+[INFO ] 2019-05-06 01:04:39.232 [TestNG-test=Test-challenge-1] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 01:04:39.286 [TestNG-test=Test-challenge-3] WebTest - Clicking on Create Account Button
+[INFO ] 2019-05-06 01:04:42.113 [TestNG-test=Test-challenge-1] WebTest - LogIn is completed by entering username and password
+[INFO ] 2019-05-06 01:04:48.029 [TestNG-test=Test-challenge-1] WebTest - Click on Women button
+[INFO ] 2019-05-06 01:04:48.123 [TestNG-test=Test-challenge-1] WebTest - Selecting the dress
+[INFO ] 2019-05-06 01:04:51.339 [TestNG-test=Test-challenge-1] WebTest - Viewing the dress in maximized view in next page
+[INFO ] 2019-05-06 01:04:51.416 [TestNG-test=Test-challenge-1] WebTest - Clicking on Submit button for checkout
+[INFO ] 2019-05-06 01:14:42.261 [TestNG-tests-1] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 01:14:45.012 [TestNG-tests-1] WebTest - LogIn is completed by entering username and password
+[INFO ] 2019-05-06 01:14:45.538 [TestNG-tests-1] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 01:14:48.245 [TestNG-tests-1] WebTest - LogIn is completed by entering username and password
+[INFO ] 2019-05-06 01:14:48.289 [TestNG-tests-1] WebTest - Fetching the Heading after successfull login
+[INFO ] 2019-05-06 01:14:48.330 [TestNG-tests-1] WebTest - Fetching the Fullname of the sign in user
+[INFO ] 2019-05-06 01:14:48.332 [TestNG-tests-1] WebTest - Validating if the Heading displayed is correct
+[INFO ] 2019-05-06 01:14:48.332 [TestNG-tests-1] WebTest - Validating if the Fullname displayed is correct
+[INFO ] 2019-05-06 01:14:48.380 [TestNG-tests-1] WebTest - Fetching & Validating if the Account Information is displayed correctly
+[INFO ] 2019-05-06 01:14:48.405 [TestNG-tests-1] WebTest - Validating the logout button is displayed or not
+[INFO ] 2019-05-06 01:14:48.409 [TestNG-tests-1] WebTest - Validating if the 'controller=my-account' is appended in page URL
+[INFO ] 2019-05-06 01:15:04.132 [TestNG-tests-1] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 01:15:54.797 [TestNG-tests-1] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 01:15:55.098 [TestNG-tests-1] WebTest - Entering Email Id to Create New Account
+[INFO ] 2019-05-06 01:15:55.193 [TestNG-tests-1] WebTest - Clicking on Create Account Button
+[INFO ] 2019-05-06 01:15:55.624 [TestNG-tests-1] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 01:15:57.837 [TestNG-tests-1] WebTest - Selecting Gender Option
+[INFO ] 2019-05-06 01:15:58.227 [TestNG-tests-1] WebTest - Entering Name and password details
+[INFO ] 2019-05-06 01:15:58.343 [TestNG-tests-1] WebTest - Selecting date from the dropdown
+[INFO ] 2019-05-06 01:15:58.449 [TestNG-tests-1] WebTest - Selecting month from the dropdown
+[INFO ] 2019-05-06 01:15:58.554 [TestNG-tests-1] WebTest - Selecting year from the dropdown
+[INFO ] 2019-05-06 01:15:59.430 [TestNG-tests-1] WebTest - Entering all the address details such as such as addr, city, state, ph.no, comapny etc
+[INFO ] 2019-05-06 01:16:01.151 [TestNG-tests-1] WebTest - LogIn is completed by entering username and password
+[INFO ] 2019-05-06 01:16:02.241 [TestNG-tests-1] WebTest - Click on Submit button
+[INFO ] 2019-05-06 01:16:02.285 [TestNG-tests-1] WebTest - Fetching the heading of the page
+[INFO ] 2019-05-06 01:16:02.327 [TestNG-tests-1] WebTest - Fetching the fullname of the user
+[INFO ] 2019-05-06 01:16:02.329 [TestNG-tests-1] WebTest - Validating if the Heading of the page is right
+[INFO ] 2019-05-06 01:16:02.329 [TestNG-tests-1] WebTest - Validating if the Full Name of the user is correct
+[INFO ] 2019-05-06 01:16:02.369 [TestNG-tests-1] WebTest - Validating if the Account Information is displayed correctly
+[INFO ] 2019-05-06 01:16:02.392 [TestNG-tests-1] WebTest - Validating if the logout button is displayed
+[INFO ] 2019-05-06 01:16:02.396 [TestNG-tests-1] WebTest - Validating if the 'controller=my-account' is appended in page URL
+[INFO ] 2019-05-06 01:16:10.626 [TestNG-tests-1] WebTest - Click on Women button
+[INFO ] 2019-05-06 01:16:10.758 [TestNG-tests-1] WebTest - Selecting the dress
+[INFO ] 2019-05-06 01:16:14.774 [TestNG-tests-1] WebTest - Viewing the dress in maximized view in next page
+[INFO ] 2019-05-06 01:16:14.850 [TestNG-tests-1] WebTest - Clicking on Submit button for checkout
+[INFO ] 2019-05-06 01:16:48.892 [TestNG-tests-1] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 01:16:51.823 [TestNG-tests-1] WebTest - LogIn is completed by entering username and password
+[INFO ] 2019-05-06 01:16:51.867 [TestNG-tests-1] WebTest - Fetching the Heading after successfull login
+[INFO ] 2019-05-06 01:16:51.915 [TestNG-tests-1] WebTest - Fetching the Fullname of the sign in user
+[INFO ] 2019-05-06 01:16:51.916 [TestNG-tests-1] WebTest - Validating if the Heading displayed is correct
+[INFO ] 2019-05-06 01:16:51.917 [TestNG-tests-1] WebTest - Validating if the Fullname displayed is correct
+[INFO ] 2019-05-06 01:16:51.960 [TestNG-tests-1] WebTest - Fetching & Validating if the Account Information is displayed correctly
+[INFO ] 2019-05-06 01:16:51.983 [TestNG-tests-1] WebTest - Validating the logout button is displayed or not
+[INFO ] 2019-05-06 01:16:51.987 [TestNG-tests-1] WebTest - Validating if the 'controller=my-account' is appended in page URL
+[INFO ] 2019-05-06 01:17:05.772 [TestNG-tests-1] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 01:17:06.024 [TestNG-tests-1] WebTest - Entering Email Id to Create New Account
+[INFO ] 2019-05-06 01:17:06.097 [TestNG-tests-1] WebTest - Clicking on Create Account Button
+[INFO ] 2019-05-06 01:17:08.231 [TestNG-tests-1] WebTest - Selecting Gender Option
+[INFO ] 2019-05-06 01:17:08.603 [TestNG-tests-1] WebTest - Entering Name and password details
+[INFO ] 2019-05-06 01:17:08.708 [TestNG-tests-1] WebTest - Selecting date from the dropdown
+[INFO ] 2019-05-06 01:17:08.804 [TestNG-tests-1] WebTest - Selecting month from the dropdown
+[INFO ] 2019-05-06 01:17:08.907 [TestNG-tests-1] WebTest - Selecting year from the dropdown
+[INFO ] 2019-05-06 01:17:09.753 [TestNG-tests-1] WebTest - Entering all the address details such as such as addr, city, state, ph.no, comapny etc
+[INFO ] 2019-05-06 01:17:12.412 [TestNG-tests-1] WebTest - Click on Submit button
+[INFO ] 2019-05-06 01:17:12.453 [TestNG-tests-1] WebTest - Fetching the heading of the page
+[INFO ] 2019-05-06 01:17:12.493 [TestNG-tests-1] WebTest - Fetching the fullname of the user
+[INFO ] 2019-05-06 01:17:12.493 [TestNG-tests-1] WebTest - Validating if the Heading of the page is right
+[INFO ] 2019-05-06 01:17:12.493 [TestNG-tests-1] WebTest - Validating if the Full Name of the user is correct
+[INFO ] 2019-05-06 01:17:12.535 [TestNG-tests-1] WebTest - Validating if the Account Information is displayed correctly
+[INFO ] 2019-05-06 01:17:12.565 [TestNG-tests-1] WebTest - Validating if the logout button is displayed
+[INFO ] 2019-05-06 01:17:12.569 [TestNG-tests-1] WebTest - Validating if the 'controller=my-account' is appended in page URL
+[INFO ] 2019-05-06 01:19:28.194 [TestNG-tests-1] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 01:19:28.450 [TestNG-tests-1] WebTest - Entering Email Id to Create New Account
+[INFO ] 2019-05-06 01:19:28.523 [TestNG-tests-1] WebTest - Clicking on Create Account Button
+[INFO ] 2019-05-06 01:19:30.643 [TestNG-tests-1] WebTest - Selecting Gender Option
+[INFO ] 2019-05-06 01:19:30.938 [TestNG-tests-1] WebTest - Entering Name and password details
+[INFO ] 2019-05-06 01:19:31.107 [TestNG-tests-1] WebTest - Selecting date from the dropdown
+[INFO ] 2019-05-06 01:19:31.207 [TestNG-tests-1] WebTest - Selecting month from the dropdown
+[INFO ] 2019-05-06 01:19:31.303 [TestNG-tests-1] WebTest - Selecting year from the dropdown
+[INFO ] 2019-05-06 01:19:32.151 [TestNG-tests-1] WebTest - Entering all the address details such as such as addr, city, state, ph.no, comapny etc
+[INFO ] 2019-05-06 01:19:34.641 [TestNG-tests-1] WebTest - Click on Submit button
+[INFO ] 2019-05-06 01:19:34.684 [TestNG-tests-1] WebTest - Fetching the heading of the page
+[INFO ] 2019-05-06 01:19:34.723 [TestNG-tests-1] WebTest - Fetching the fullname of the user
+[INFO ] 2019-05-06 01:19:34.725 [TestNG-tests-1] WebTest - Validating if the Heading of the page is right
+[INFO ] 2019-05-06 01:19:34.725 [TestNG-tests-1] WebTest - Validating if the Full Name of the user is correct
+[INFO ] 2019-05-06 01:19:34.766 [TestNG-tests-1] WebTest - Validating if the Account Information is displayed correctly
+[INFO ] 2019-05-06 01:19:34.791 [TestNG-tests-1] WebTest - Validating if the logout button is displayed
+[INFO ] 2019-05-06 01:19:34.796 [TestNG-tests-1] WebTest - Validating if the 'controller=my-account' is appended in page URL
+[INFO ] 2019-05-06 01:27:56.090 [TestNG-test=Test-challenge-1] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 01:27:59.695 [TestNG-test=Test-challenge-3] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 01:31:38.960 [TestNG-tests-1] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 01:31:39.235 [TestNG-tests-1] WebTest - Entering Email Id to Create New Account
+[INFO ] 2019-05-06 01:31:39.335 [TestNG-tests-1] WebTest - Clicking on Create Account Button
+[INFO ] 2019-05-06 01:31:43.514 [TestNG-tests-1] WebTest - Selecting Gender Option
+[INFO ] 2019-05-06 01:31:43.993 [TestNG-tests-1] WebTest - Entering Name and password details
+[INFO ] 2019-05-06 01:31:44.103 [TestNG-tests-1] WebTest - Selecting date from the dropdown
+[INFO ] 2019-05-06 01:31:44.231 [TestNG-tests-1] WebTest - Selecting month from the dropdown
+[INFO ] 2019-05-06 01:31:44.343 [TestNG-tests-1] WebTest - Selecting year from the dropdown
+[INFO ] 2019-05-06 01:31:44.757 [TestNG-test=Test-challenge(failed)-3] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 01:31:45.121 [TestNG-test=Test-challenge(failed)-3] WebTest - Entering Email Id to Create New Account
+[INFO ] 2019-05-06 01:31:45.531 [TestNG-tests-1] WebTest - Entering all the address details such as such as addr, city, state, ph.no, comapny etc
+[INFO ] 2019-05-06 01:31:49.926 [TestNG-test=Test-challenge(failed)-1] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 01:31:50.084 [TestNG-tests-1] WebTest - Click on Submit button
+[INFO ] 2019-05-06 01:31:50.167 [TestNG-tests-1] WebTest - Fetching the heading of the page
+[INFO ] 2019-05-06 01:31:50.225 [TestNG-tests-1] WebTest - Fetching the fullname of the user
+[INFO ] 2019-05-06 01:31:50.228 [TestNG-tests-1] WebTest - Validating if the Heading of the page is right
+[INFO ] 2019-05-06 01:31:50.228 [TestNG-tests-1] WebTest - Validating if the Full Name of the user is correct
+[INFO ] 2019-05-06 01:31:50.278 [TestNG-tests-1] WebTest - Validating if the Account Information is displayed correctly
+[INFO ] 2019-05-06 01:31:50.304 [TestNG-tests-1] WebTest - Validating if the logout button is displayed
+[INFO ] 2019-05-06 01:31:50.308 [TestNG-tests-1] WebTest - Validating if the 'controller=my-account' is appended in page URL
+[INFO ] 2019-05-06 01:38:06.768 [TestNG-test=Test-challenge-2] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 01:38:10.583 [TestNG-test=Test-challenge-3] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 01:42:03.219 [TestNG-test=Test-challenge(failed)-2] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 01:45:35.005 [TestNG-test=Test-challenge(failed)-3] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 01:54:11.814 [TestNG-test=Test-challenge-1] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 01:57:06.269 [TestNG-test=Test-challenge-2] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 01:57:09.107 [TestNG-test=Test-challenge-3] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 02:25:55.595 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 02:25:58.311 [main] WebTest - LogIn is completed by entering username and password
+[INFO ] 2019-05-06 02:27:02.974 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 02:27:05.825 [main] WebTest - LogIn is completed by entering username and password
+[INFO ] 2019-05-06 02:27:05.865 [main] WebTest - Fetching the Heading after successfull login
+[INFO ] 2019-05-06 02:27:05.903 [main] WebTest - Fetching the Fullname of the sign in user
+[INFO ] 2019-05-06 02:27:05.904 [main] WebTest - Validating if the Heading displayed is correct
+[INFO ] 2019-05-06 02:27:05.905 [main] WebTest - Validating if the Fullname displayed is correct
+[INFO ] 2019-05-06 02:27:05.945 [main] WebTest - Fetching & Validating if the Account Information is displayed correctly
+[INFO ] 2019-05-06 02:27:05.967 [main] WebTest - Validating the logout button is displayed or not
+[INFO ] 2019-05-06 02:27:05.972 [main] WebTest - Validating if the 'controller=my-account' is appended in page URL
+[INFO ] 2019-05-06 02:27:19.756 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 02:27:20.001 [main] WebTest - Entering Email Id to Create New Account
+[INFO ] 2019-05-06 02:27:20.095 [main] WebTest - Clicking on Create Account Button
+[INFO ] 2019-05-06 02:29:08.844 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 02:29:11.027 [main] WebTest - LogIn is completed by entering username and password
+[INFO ] 2019-05-06 02:30:09.716 [TestNG-test=Test-challenge-3] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 02:30:11.657 [TestNG-test=Test-challenge-1] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 02:30:11.938 [TestNG-test=Test-challenge-3] WebTest - Entering Email Id to Create New Account
+[INFO ] 2019-05-06 02:30:20.881 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 02:30:23.153 [main] WebTest - LogIn is completed by entering username and password
+[INFO ] 2019-05-06 02:55:05.919 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 04:17:38.673 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 04:19:43.277 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 04:23:34.016 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 04:23:36.107 [main] WebTest - LogIn is completed by entering username and password
+[INFO ] 2019-05-06 04:28:09.474 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 04:28:12.068 [main] WebTest - LogIn is completed by entering username and password
+[INFO ] 2019-05-06 04:28:12.112 [main] WebTest - Fetching the Heading after successfull login
+[INFO ] 2019-05-06 04:28:12.155 [main] WebTest - Fetching the Fullname of the sign in user
+[INFO ] 2019-05-06 04:28:12.157 [main] WebTest - Validating if the Heading displayed is correct
+[INFO ] 2019-05-06 04:28:12.157 [main] WebTest - Validating if the Fullname displayed is correct
+[INFO ] 2019-05-06 04:28:12.197 [main] WebTest - Fetching & Validating if the Account Information is displayed correctly
+[INFO ] 2019-05-06 04:28:12.233 [main] WebTest - Validating the logout button is displayed or not
+[INFO ] 2019-05-06 04:28:12.236 [main] WebTest - Validating if the 'controller=my-account' is appended in page URL
+[INFO ] 2019-05-06 04:29:37.529 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 04:34:22.466 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 04:57:19.303 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 04:59:04.183 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 05:03:20.681 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 05:05:47.655 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 05:05:50.141 [main] WebTest - LogIn is completed by entering username and password
+[INFO ] 2019-05-06 09:34:23.090 [TestNG-test=Test-challenge-1] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 09:34:23.339 [TestNG-test=Test-challenge-1] WebTest - Entering Email Id to Create New Account
+[INFO ] 2019-05-06 09:34:23.402 [TestNG-test=Test-challenge-1] WebTest - Clicking on Create Account Button
+[INFO ] 2019-05-06 09:34:25.568 [TestNG-test=Test-challenge-1] WebTest - Selecting Gender Option
+[INFO ] 2019-05-06 09:34:25.914 [TestNG-test=Test-challenge-1] WebTest - Entering Name and password details
+[INFO ] 2019-05-06 09:34:26.019 [TestNG-test=Test-challenge-1] WebTest - Selecting date from the dropdown
+[INFO ] 2019-05-06 09:34:26.107 [TestNG-test=Test-challenge-1] WebTest - Selecting month from the dropdown
+[INFO ] 2019-05-06 09:34:26.194 [TestNG-test=Test-challenge-1] WebTest - Selecting year from the dropdown
+[INFO ] 2019-05-06 09:34:27.051 [TestNG-test=Test-challenge-1] WebTest - Entering all the address details such as such as addr, city, state, ph.no, comapny etc
+[INFO ] 2019-05-06 09:34:30.487 [TestNG-test=Test-challenge-1] WebTest - Click on Submit button
+[INFO ] 2019-05-06 09:34:30.534 [TestNG-test=Test-challenge-1] WebTest - Fetching the heading of the page
+[INFO ] 2019-05-06 09:34:30.579 [TestNG-test=Test-challenge-1] WebTest - Fetching the fullname of the user
+[INFO ] 2019-05-06 09:34:30.581 [TestNG-test=Test-challenge-1] WebTest - Validating if the Heading of the page is right
+[INFO ] 2019-05-06 09:34:30.581 [TestNG-test=Test-challenge-1] WebTest - Validating if the Full Name of the user is correct
+[INFO ] 2019-05-06 09:34:30.621 [TestNG-test=Test-challenge-1] WebTest - Validating if the Account Information is displayed correctly
+[INFO ] 2019-05-06 09:34:30.642 [TestNG-test=Test-challenge-1] WebTest - Validating if the logout button is displayed
+[INFO ] 2019-05-06 09:34:30.647 [TestNG-test=Test-challenge-1] WebTest - Validating if the 'controller=my-account' is appended in page URL
+[INFO ] 2019-05-06 09:34:47.394 [TestNG-test=Test-challenge-2] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 09:34:50.340 [TestNG-test=Test-challenge-2] WebTest - LogIn is completed by entering username and password
+[INFO ] 2019-05-06 09:34:50.382 [TestNG-test=Test-challenge-2] WebTest - Fetching the Heading after successfull login
+[INFO ] 2019-05-06 09:34:50.423 [TestNG-test=Test-challenge-2] WebTest - Fetching the Fullname of the sign in user
+[INFO ] 2019-05-06 09:34:50.423 [TestNG-test=Test-challenge-2] WebTest - Validating if the Heading displayed is correct
+[INFO ] 2019-05-06 09:34:50.423 [TestNG-test=Test-challenge-2] WebTest - Validating if the Fullname displayed is correct
+[INFO ] 2019-05-06 09:34:50.465 [TestNG-test=Test-challenge-2] WebTest - Fetching & Validating if the Account Information is displayed correctly
+[INFO ] 2019-05-06 09:34:50.488 [TestNG-test=Test-challenge-2] WebTest - Validating the logout button is displayed or not
+[INFO ] 2019-05-06 09:34:50.493 [TestNG-test=Test-challenge-2] WebTest - Validating if the 'controller=my-account' is appended in page URL
+[INFO ] 2019-05-06 09:35:05.719 [TestNG-test=Test-challenge-3] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 09:35:08.630 [TestNG-test=Test-challenge-3] WebTest - LogIn is completed by entering username and password
+[INFO ] 2019-05-06 09:35:15.811 [TestNG-test=Test-challenge-3] WebTest - Click on Women button
+[INFO ] 2019-05-06 09:35:15.937 [TestNG-test=Test-challenge-3] WebTest - Selecting the dress
+[INFO ] 2019-05-06 09:35:19.399 [TestNG-test=Test-challenge-3] WebTest - Viewing the dress in maximized view in next page
+[INFO ] 2019-05-06 09:35:19.474 [TestNG-test=Test-challenge-3] WebTest - Clicking on Submit button for checkout
+[INFO ] 2019-05-06 09:35:24.095 [TestNG-test=Test-challenge-3] WebTest - Clicking on Checkout button to proceed
+[INFO ] 2019-05-06 09:35:26.145 [TestNG-test=Test-challenge-3] WebTest - Clicking on Checkout button to proceed in the next page again
+[INFO ] 2019-05-06 09:35:27.987 [TestNG-test=Test-challenge-3] WebTest - Clicking on Next step button to process address
+[INFO ] 2019-05-06 09:35:28.063 [TestNG-test=Test-challenge-3] WebTest - Selecting the Terms and conditions checkbox
+[INFO ] 2019-05-06 09:35:31.572 [TestNG-test=Test-challenge-3] WebTest - Clicking on next to complete the shipping step
+[INFO ] 2019-05-06 09:35:33.164 [TestNG-test=Test-challenge-3] WebTest - Select button - Pay by Bank Wire
+[INFO ] 2019-05-06 09:35:36.449 [TestNG-test=Test-challenge-3] WebTest - Click on Confirm Order Button
+[INFO ] 2019-05-06 09:35:36.518 [TestNG-test=Test-challenge-3] WebTest - Fetching the text Order Confirmation
+[INFO ] 2019-05-06 09:35:36.518 [TestNG-test=Test-challenge-3] WebTest - Verifying text in application if its ORDER Confirmation
+[INFO ] 2019-05-06 09:35:36.541 [TestNG-test=Test-challenge-3] WebTest - Validating if the shipping section is displayed
+[INFO ] 2019-05-06 09:35:36.562 [TestNG-test=Test-challenge-3] WebTest - Validating if the Confirmation Step End section is displayed
+[INFO ] 2019-05-06 09:35:36.620 [TestNG-test=Test-challenge-3] WebTest - Verifying text ORDER Confirmation is displayed
+[INFO ] 2019-05-06 09:35:36.624 [TestNG-test=Test-challenge-3] WebTest - Validating if the 'order-confirmation' is appended in page URL
+[INFO ] 2019-05-06 09:36:41.145 [TestNG-test=Test-challenge-1] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 09:36:43.647 [TestNG-test=Test-challenge-2] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 09:36:43.894 [TestNG-test=Test-challenge-2] WebTest - Entering Email Id to Create New Account
+[INFO ] 2019-05-06 09:36:45.591 [TestNG-test=Test-challenge-1] WebTest - LogIn is completed by entering username and password
+[INFO ] 2019-05-06 09:36:53.111 [TestNG-test=Test-challenge-1] WebTest - Click on Women button
+[INFO ] 2019-05-06 09:36:53.237 [TestNG-test=Test-challenge-1] WebTest - Selecting the dress
+[INFO ] 2019-05-06 09:36:56.711 [TestNG-test=Test-challenge-1] WebTest - Viewing the dress in maximized view in next page
+[INFO ] 2019-05-06 09:36:56.791 [TestNG-test=Test-challenge-1] WebTest - Clicking on Submit button for checkout
+[INFO ] 2019-05-06 09:37:01.077 [TestNG-test=Test-challenge-1] WebTest - Clicking on Checkout button to proceed
+[INFO ] 2019-05-06 09:37:03.935 [TestNG-test=Test-challenge-1] WebTest - Clicking on Checkout button to proceed in the next page again
+[INFO ] 2019-05-06 09:42:35.066 [TestNG-test=Test-challenge-2] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 09:42:38.026 [TestNG-test=Test-challenge-3] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 09:42:38.367 [TestNG-test=Test-challenge-3] WebTest - Entering Email Id to Create New Account
+[INFO ] 2019-05-06 09:42:38.491 [TestNG-test=Test-challenge-3] WebTest - Clicking on Create Account Button
+[INFO ] 2019-05-06 09:42:42.013 [TestNG-test=Test-challenge-2] WebTest - LogIn is completed by entering username and password
+[INFO ] 2019-05-06 09:42:42.069 [TestNG-test=Test-challenge-2] WebTest - Fetching the Heading after successfull login
+[INFO ] 2019-05-06 09:42:42.117 [TestNG-test=Test-challenge-2] WebTest - Fetching the Fullname of the sign in user
+[INFO ] 2019-05-06 09:42:42.119 [TestNG-test=Test-challenge-2] WebTest - Validating if the Heading displayed is correct
+[INFO ] 2019-05-06 09:42:42.119 [TestNG-test=Test-challenge-2] WebTest - Validating if the Fullname displayed is correct
+[INFO ] 2019-05-06 09:42:42.159 [TestNG-test=Test-challenge-2] WebTest - Fetching & Validating if the Account Information is displayed correctly
+[INFO ] 2019-05-06 09:42:42.180 [TestNG-test=Test-challenge-2] WebTest - Validating the logout button is displayed or not
+[INFO ] 2019-05-06 09:42:42.184 [TestNG-test=Test-challenge-2] WebTest - Validating if the 'controller=my-account' is appended in page URL
+[INFO ] 2019-05-06 09:44:32.530 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 09:44:35.679 [main] WebTest - LogIn is completed by entering username and password
+[INFO ] 2019-05-06 09:44:42.966 [main] WebTest - Click on Women button
+[INFO ] 2019-05-06 09:44:43.050 [main] WebTest - Selecting the dress
+[INFO ] 2019-05-06 09:44:47.876 [main] WebTest - Viewing the dress in maximized view in next page
+[INFO ] 2019-05-06 09:44:48.448 [main] WebTest - Clicking on Submit button for checkout
+[INFO ] 2019-05-06 09:45:46.665 [TestNG-test=Test-challenge-2] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 09:45:48.927 [TestNG-test=Test-challenge-3] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 09:45:49.281 [TestNG-test=Test-challenge-3] WebTest - Entering Email Id to Create New Account
+[INFO ] 2019-05-06 09:45:49.406 [TestNG-test=Test-challenge-3] WebTest - Clicking on Create Account Button
+[INFO ] 2019-05-06 09:45:52.894 [TestNG-test=Test-challenge-2] WebTest - LogIn is completed by entering username and password
+[INFO ] 2019-05-06 09:45:52.942 [TestNG-test=Test-challenge-2] WebTest - Fetching the Heading after successfull login
+[INFO ] 2019-05-06 09:45:52.988 [TestNG-test=Test-challenge-2] WebTest - Fetching the Fullname of the sign in user
+[INFO ] 2019-05-06 09:45:52.990 [TestNG-test=Test-challenge-2] WebTest - Validating if the Heading displayed is correct
+[INFO ] 2019-05-06 09:45:52.990 [TestNG-test=Test-challenge-2] WebTest - Validating if the Fullname displayed is correct
+[INFO ] 2019-05-06 09:45:53.045 [TestNG-test=Test-challenge-2] WebTest - Fetching & Validating if the Account Information is displayed correctly
+[INFO ] 2019-05-06 09:45:53.070 [TestNG-test=Test-challenge-2] WebTest - Validating the logout button is displayed or not
+[INFO ] 2019-05-06 09:45:53.075 [TestNG-test=Test-challenge-2] WebTest - Validating if the 'controller=my-account' is appended in page URL
+[INFO ] 2019-05-06 09:55:46.996 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 09:55:50.136 [main] WebTest - LogIn is completed by entering username and password
+[INFO ] 2019-05-06 09:55:58.450 [main] WebTest - Click on Women button
+[INFO ] 2019-05-06 09:55:58.576 [main] WebTest - Selecting the dress
+[INFO ] 2019-05-06 09:56:03.379 [main] WebTest - Viewing the dress in maximized view in next page
+[INFO ] 2019-05-06 09:56:03.458 [main] WebTest - Clicking on Submit button for checkout
+[INFO ] 2019-05-06 09:56:11.149 [main] WebTest - Clicking on Checkout button to proceed
+[INFO ] 2019-05-06 09:56:13.678 [main] WebTest - Clicking on Checkout button to proceed in the next page again
+[INFO ] 2019-05-06 09:56:17.187 [main] WebTest - Clicking on Next step button to process address
+[INFO ] 2019-05-06 09:56:17.263 [main] WebTest - Selecting the Terms and conditions checkbox
+[INFO ] 2019-05-06 09:56:20.877 [main] WebTest - Clicking on next to complete the shipping step
+[INFO ] 2019-05-06 09:56:22.608 [main] WebTest - Select button - Pay by Bank Wire
+[INFO ] 2019-05-06 09:56:25.556 [main] WebTest - Click on Confirm Order Button
+[INFO ] 2019-05-06 09:56:25.603 [main] WebTest - Fetching the text Order Confirmation
+[INFO ] 2019-05-06 09:56:25.605 [main] WebTest - Verifying text in application if its ORDER Confirmation
+[INFO ] 2019-05-06 09:56:25.629 [main] WebTest - Validating if the shipping section is displayed
+[INFO ] 2019-05-06 09:56:25.650 [main] WebTest - Validating if the Confirmation Step End section is displayed
+[INFO ] 2019-05-06 09:56:25.692 [main] WebTest - Verifying text ORDER Confirmation is displayed
+[INFO ] 2019-05-06 09:56:25.697 [main] WebTest - Validating if the 'order-confirmation' is appended in page URL
+[INFO ] 2019-05-06 09:56:43.937 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 09:56:47.247 [main] WebTest - LogIn is completed by entering username and password
+[INFO ] 2019-05-06 09:56:47.288 [main] WebTest - Fetching the Heading after successfull login
+[INFO ] 2019-05-06 09:56:47.329 [main] WebTest - Fetching the Fullname of the sign in user
+[INFO ] 2019-05-06 09:56:47.330 [main] WebTest - Validating if the Heading displayed is correct
+[INFO ] 2019-05-06 09:56:47.330 [main] WebTest - Validating if the Fullname displayed is correct
+[INFO ] 2019-05-06 09:56:47.373 [main] WebTest - Fetching & Validating if the Account Information is displayed correctly
+[INFO ] 2019-05-06 09:56:47.395 [main] WebTest - Validating the logout button is displayed or not
+[INFO ] 2019-05-06 09:56:47.400 [main] WebTest - Validating if the 'controller=my-account' is appended in page URL
+[INFO ] 2019-05-06 09:57:03.945 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 09:57:04.200 [main] WebTest - Entering Email Id to Create New Account
+[INFO ] 2019-05-06 09:57:04.275 [main] WebTest - Clicking on Create Account Button
+[INFO ] 2019-05-06 09:57:06.417 [main] WebTest - Selecting Gender Option
+[INFO ] 2019-05-06 09:57:06.712 [main] WebTest - Entering Name and password details
+[INFO ] 2019-05-06 09:57:06.823 [main] WebTest - Selecting date from the dropdown
+[INFO ] 2019-05-06 09:57:06.923 [main] WebTest - Selecting month from the dropdown
+[INFO ] 2019-05-06 09:57:07.115 [main] WebTest - Selecting year from the dropdown
+[INFO ] 2019-05-06 09:57:07.957 [main] WebTest - Entering all the address details such as such as addr, city, state, ph.no, comapny etc
+[INFO ] 2019-05-06 09:57:10.596 [main] WebTest - Click on Submit button
+[INFO ] 2019-05-06 09:57:10.637 [main] WebTest - Fetching the heading of the page
+[INFO ] 2019-05-06 09:57:10.677 [main] WebTest - Fetching the fullname of the user
+[INFO ] 2019-05-06 09:57:10.678 [main] WebTest - Validating if the Heading of the page is right
+[INFO ] 2019-05-06 09:57:10.678 [main] WebTest - Validating if the Full Name of the user is correct
+[INFO ] 2019-05-06 09:57:10.722 [main] WebTest - Validating if the Account Information is displayed correctly
+[INFO ] 2019-05-06 09:57:10.745 [main] WebTest - Validating if the logout button is displayed
+[INFO ] 2019-05-06 09:57:10.750 [main] WebTest - Validating if the 'controller=my-account' is appended in page URL
+[INFO ] 2019-05-06 09:59:05.191 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 09:59:07.834 [main] WebTest - LogIn is completed by entering username and password
+[INFO ] 2019-05-06 09:59:15.169 [main] WebTest - Click on Women button
+[INFO ] 2019-05-06 09:59:15.257 [main] WebTest - Selecting the dress
+[INFO ] 2019-05-06 09:59:20.047 [main] WebTest - Viewing the dress in maximized view in next page
+[INFO ] 2019-05-06 09:59:20.124 [main] WebTest - Clicking on Submit button for checkout
+[INFO ] 2019-05-06 09:59:26.036 [main] WebTest - Clicking on Checkout button to proceed
+[INFO ] 2019-05-06 09:59:30.224 [main] WebTest - Clicking on Checkout button to proceed in the next page again
+[INFO ] 2019-05-06 09:59:34.214 [main] WebTest - Clicking on Next step button to process address
+[INFO ] 2019-05-06 09:59:34.289 [main] WebTest - Selecting the Terms and conditions checkbox
+[INFO ] 2019-05-06 09:59:36.872 [main] WebTest - Clicking on next to complete the shipping step
+[INFO ] 2019-05-06 09:59:38.334 [main] WebTest - Select button - Pay by Bank Wire
+[INFO ] 2019-05-06 09:59:41.541 [main] WebTest - Click on Confirm Order Button
+[INFO ] 2019-05-06 09:59:41.581 [main] WebTest - Fetching the text Order Confirmation
+[INFO ] 2019-05-06 09:59:41.582 [main] WebTest - Verifying text in application if its ORDER Confirmation
+[INFO ] 2019-05-06 09:59:41.611 [main] WebTest - Validating if the shipping section is displayed
+[INFO ] 2019-05-06 09:59:41.639 [main] WebTest - Validating if the Confirmation Step End section is displayed
+[INFO ] 2019-05-06 09:59:41.681 [main] WebTest - Verifying text ORDER Confirmation is displayed
+[INFO ] 2019-05-06 09:59:41.685 [main] WebTest - Validating if the 'order-confirmation' is appended in page URL
+[INFO ] 2019-05-06 10:01:22.562 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 10:01:25.672 [main] WebTest - LogIn is completed by entering username and password
+[INFO ] 2019-05-06 10:01:33.103 [main] WebTest - Click on Women button
+[INFO ] 2019-05-06 10:01:33.223 [main] WebTest - Selecting the dress
+[INFO ] 2019-05-06 10:01:36.866 [main] WebTest - Viewing the dress in maximized view in next page
+[INFO ] 2019-05-06 10:01:36.941 [main] WebTest - Clicking on Submit button for checkout
+[INFO ] 2019-05-06 10:01:41.800 [main] WebTest - Clicking on Checkout button to proceed
+[INFO ] 2019-05-06 10:01:43.861 [main] WebTest - Clicking on Checkout button to proceed in the next page again
+[INFO ] 2019-05-06 10:01:45.544 [main] WebTest - Clicking on Next step button to process address
+[INFO ] 2019-05-06 10:01:45.617 [main] WebTest - Selecting the Terms and conditions checkbox
+[INFO ] 2019-05-06 10:01:47.760 [main] WebTest - Clicking on next to complete the shipping step
+[INFO ] 2019-05-06 10:01:49.255 [main] WebTest - Select button - Pay by Bank Wire
+[INFO ] 2019-05-06 10:01:52.366 [main] WebTest - Click on Confirm Order Button
+[INFO ] 2019-05-06 10:01:52.407 [main] WebTest - Fetching the text Order Confirmation
+[INFO ] 2019-05-06 10:01:52.409 [main] WebTest - Verifying text in application if its ORDER Confirmation
+[INFO ] 2019-05-06 10:01:52.429 [main] WebTest - Validating if the shipping section is displayed
+[INFO ] 2019-05-06 10:01:52.454 [main] WebTest - Validating if the Confirmation Step End section is displayed
+[INFO ] 2019-05-06 10:01:52.501 [main] WebTest - Verifying text ORDER Confirmation is displayed
+[INFO ] 2019-05-06 10:01:52.507 [main] WebTest - Validating if the 'order-confirmation' is appended in page URL
+[INFO ] 2019-05-06 10:02:08.111 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 10:02:12.772 [main] WebTest - LogIn is completed by entering username and password
+[INFO ] 2019-05-06 10:02:12.813 [main] WebTest - Fetching the Heading after successfull login
+[INFO ] 2019-05-06 10:02:12.856 [main] WebTest - Fetching the Fullname of the sign in user
+[INFO ] 2019-05-06 10:02:12.857 [main] WebTest - Validating if the Heading displayed is correct
+[INFO ] 2019-05-06 10:02:12.857 [main] WebTest - Validating if the Fullname displayed is correct
+[INFO ] 2019-05-06 10:02:12.904 [main] WebTest - Fetching & Validating if the Account Information is displayed correctly
+[INFO ] 2019-05-06 10:02:12.928 [main] WebTest - Validating the logout button is displayed or not
+[INFO ] 2019-05-06 10:02:12.933 [main] WebTest - Validating if the 'controller=my-account' is appended in page URL
+[INFO ] 2019-05-06 10:02:33.975 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 10:02:34.225 [main] WebTest - Entering Email Id to Create New Account
+[INFO ] 2019-05-06 10:02:34.300 [main] WebTest - Clicking on Create Account Button
+[INFO ] 2019-05-06 10:03:22.937 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 10:03:25.554 [main] WebTest - LogIn is completed by entering username and password
+[INFO ] 2019-05-06 10:08:51.396 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 10:08:54.781 [main] WebTest - LogIn is completed by entering username and password
+[INFO ] 2019-05-06 10:09:04.442 [main] WebTest - Click on Women button
+[INFO ] 2019-05-06 10:09:04.571 [main] WebTest - Selecting the dress
+[INFO ] 2019-05-06 10:09:08.592 [main] WebTest - Viewing the dress in maximized view in next page
+[INFO ] 2019-05-06 10:09:08.673 [main] WebTest - Clicking on Submit button for checkout
+[INFO ] 2019-05-06 10:09:13.410 [main] WebTest - Clicking on Checkout button to proceed
+[INFO ] 2019-05-06 10:09:15.698 [main] WebTest - Clicking on Checkout button to proceed in the next page again
+[INFO ] 2019-05-06 10:09:17.746 [main] WebTest - Clicking on Next step button to process address
+[INFO ] 2019-05-06 10:09:17.814 [main] WebTest - Selecting the Terms and conditions checkbox
+[INFO ] 2019-05-06 10:09:20.254 [main] WebTest - Clicking on next to complete the shipping step
+[INFO ] 2019-05-06 10:09:21.720 [main] WebTest - Select button - Pay by Bank Wire
+[INFO ] 2019-05-06 10:09:25.032 [main] WebTest - Click on Confirm Order Button
+[INFO ] 2019-05-06 10:09:25.080 [main] WebTest - Fetching the text Order Confirmation
+[INFO ] 2019-05-06 10:09:25.082 [main] WebTest - Verifying text in application if its ORDER Confirmation
+[INFO ] 2019-05-06 10:09:25.107 [main] WebTest - Validating if the shipping section is displayed
+[INFO ] 2019-05-06 10:09:25.158 [main] WebTest - Validating if the Confirmation Step End section is displayed
+[INFO ] 2019-05-06 10:09:25.208 [main] WebTest - Verifying text ORDER Confirmation is displayed
+[INFO ] 2019-05-06 10:09:25.213 [main] WebTest - Validating if the 'order-confirmation' is appended in page URL
+[INFO ] 2019-05-06 10:09:41.306 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 10:09:44.258 [main] WebTest - LogIn is completed by entering username and password
+[INFO ] 2019-05-06 10:09:44.302 [main] WebTest - Fetching the Heading after successfull login
+[INFO ] 2019-05-06 10:09:44.346 [main] WebTest - Fetching the Fullname of the sign in user
+[INFO ] 2019-05-06 10:09:44.347 [main] WebTest - Validating if the Heading displayed is correct
+[INFO ] 2019-05-06 10:09:44.347 [main] WebTest - Validating if the Fullname displayed is correct
+[INFO ] 2019-05-06 10:09:44.389 [main] WebTest - Fetching & Validating if the Account Information is displayed correctly
+[INFO ] 2019-05-06 10:09:44.411 [main] WebTest - Validating the logout button is displayed or not
+[INFO ] 2019-05-06 10:09:44.416 [main] WebTest - Validating if the 'controller=my-account' is appended in page URL
+[INFO ] 2019-05-06 10:10:00.370 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 10:10:00.618 [main] WebTest - Entering Email Id to Create New Account
+[INFO ] 2019-05-06 10:10:00.692 [main] WebTest - Clicking on Create Account Button
+[INFO ] 2019-05-06 10:10:02.835 [main] WebTest - Selecting Gender Option
+[INFO ] 2019-05-06 10:10:03.191 [main] WebTest - Entering Name and password details
+[INFO ] 2019-05-06 10:10:03.294 [main] WebTest - Selecting date from the dropdown
+[INFO ] 2019-05-06 10:10:03.395 [main] WebTest - Selecting month from the dropdown
+[INFO ] 2019-05-06 10:10:03.492 [main] WebTest - Selecting year from the dropdown
+[INFO ] 2019-05-06 10:10:04.312 [main] WebTest - Entering all the address details such as such as addr, city, state, ph.no, comapny etc
+[INFO ] 2019-05-06 10:10:07.006 [main] WebTest - Click on Submit button
+[INFO ] 2019-05-06 10:10:07.049 [main] WebTest - Fetching the heading of the page
+[INFO ] 2019-05-06 10:10:07.090 [main] WebTest - Fetching the fullname of the user
+[INFO ] 2019-05-06 10:10:07.090 [main] WebTest - Validating if the Heading of the page is right
+[INFO ] 2019-05-06 10:10:07.090 [main] WebTest - Validating if the Full Name of the user is correct
+[INFO ] 2019-05-06 10:10:07.134 [main] WebTest - Validating if the Account Information is displayed correctly
+[INFO ] 2019-05-06 10:10:07.158 [main] WebTest - Validating if the logout button is displayed
+[INFO ] 2019-05-06 10:10:07.163 [main] WebTest - Validating if the 'controller=my-account' is appended in page URL
+[INFO ] 2019-05-06 10:14:47.443 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 10:14:50.106 [main] WebTest - LogIn is completed by entering username and password
+[INFO ] 2019-05-06 10:14:57.740 [main] WebTest - Click on Women button
+[INFO ] 2019-05-06 10:14:57.869 [main] WebTest - Selecting the dress
+[INFO ] 2019-05-06 10:15:01.610 [main] WebTest - Viewing the dress in maximized view in next page
+[INFO ] 2019-05-06 10:15:01.688 [main] WebTest - Clicking on Submit button for checkout
+[INFO ] 2019-05-06 10:15:07.394 [main] WebTest - Clicking on Checkout button to proceed
+[INFO ] 2019-05-06 10:15:09.654 [main] WebTest - Clicking on Checkout button to proceed in the next page again
+[INFO ] 2019-05-06 10:15:11.235 [main] WebTest - Clicking on Next step button to process address
+[INFO ] 2019-05-06 10:15:11.301 [main] WebTest - Selecting the Terms and conditions checkbox
+[INFO ] 2019-05-06 10:15:13.744 [main] WebTest - Clicking on next to complete the shipping step
+[INFO ] 2019-05-06 10:15:15.299 [main] WebTest - Select button - Pay by Bank Wire
+[INFO ] 2019-05-06 10:15:19.041 [main] WebTest - Click on Confirm Order Button
+[INFO ] 2019-05-06 10:15:19.094 [main] WebTest - Fetching the text Order Confirmation
+[INFO ] 2019-05-06 10:15:19.096 [main] WebTest - Verifying text in application if its ORDER Confirmation
+[INFO ] 2019-05-06 10:15:19.121 [main] WebTest - Validating if the shipping section is displayed
+[INFO ] 2019-05-06 10:15:19.143 [main] WebTest - Validating if the Confirmation Step End section is displayed
+[INFO ] 2019-05-06 10:15:19.189 [main] WebTest - Verifying text ORDER Confirmation is displayed
+[INFO ] 2019-05-06 10:15:19.195 [main] WebTest - Validating if the 'order-confirmation' is appended in page URL
+[INFO ] 2019-05-06 10:15:35.838 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 10:15:38.778 [main] WebTest - LogIn is completed by entering username and password
+[INFO ] 2019-05-06 10:15:38.822 [main] WebTest - Fetching the Heading after successfull login
+[INFO ] 2019-05-06 10:15:38.864 [main] WebTest - Fetching the Fullname of the sign in user
+[INFO ] 2019-05-06 10:15:38.865 [main] WebTest - Validating if the Heading displayed is correct
+[INFO ] 2019-05-06 10:15:38.865 [main] WebTest - Validating if the Fullname displayed is correct
+[INFO ] 2019-05-06 10:15:38.909 [main] WebTest - Fetching & Validating if the Account Information is displayed correctly
+[INFO ] 2019-05-06 10:15:38.931 [main] WebTest - Validating the logout button is displayed or not
+[INFO ] 2019-05-06 10:15:38.937 [main] WebTest - Validating if the 'controller=my-account' is appended in page URL
+[INFO ] 2019-05-06 10:15:55.489 [main] WebTest - Sign In Button is clicked
+[INFO ] 2019-05-06 10:15:55.768 [main] WebTest - Entering Email Id to Create New Account
+[INFO ] 2019-05-06 10:15:55.861 [main] WebTest - Clicking on Create Account Button
+[INFO ] 2019-05-06 10:15:58.005 [main] WebTest - Selecting Gender Option
+[INFO ] 2019-05-06 10:15:58.292 [main] WebTest - Entering Name and password details
+[INFO ] 2019-05-06 10:15:58.396 [main] WebTest - Selecting date from the dropdown
+[INFO ] 2019-05-06 10:15:58.491 [main] WebTest - Selecting month from the dropdown
+[INFO ] 2019-05-06 10:15:58.582 [main] WebTest - Selecting year from the dropdown
+[INFO ] 2019-05-06 10:15:59.404 [main] WebTest - Entering all the address details such as such as addr, city, state, ph.no, comapny etc
+[INFO ] 2019-05-06 10:16:01.619 [main] WebTest - Click on Submit button
+[INFO ] 2019-05-06 10:16:01.660 [main] WebTest - Fetching the heading of the page
+[INFO ] 2019-05-06 10:16:01.700 [main] WebTest - Fetching the fullname of the user
+[INFO ] 2019-05-06 10:16:01.701 [main] WebTest - Validating if the Heading of the page is right
+[INFO ] 2019-05-06 10:16:01.701 [main] WebTest - Validating if the Full Name of the user is correct
+[INFO ] 2019-05-06 10:16:01.752 [main] WebTest - Validating if the Account Information is displayed correctly
+[INFO ] 2019-05-06 10:16:01.777 [main] WebTest - Validating if the logout button is displayed
+[INFO ] 2019-05-06 10:16:01.782 [main] WebTest - Validating if the 'controller=my-account' is appended in page URL

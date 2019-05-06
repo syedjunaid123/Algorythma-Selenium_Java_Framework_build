@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Parallel test suite]" parallel="methods">
+  <test thread-count="3" verbose="0" name="Test-Execution - Opera Browser(failed)" parallel="methods">
+    <parameter name="myBrowser" value="Opera"/>
+    <classes>
+      <class name="com.saal.challenge.WebTest">
+        <methods>
+          <include name="logInTest"/>
+          <include name="checkoutTest"/>
+          <include name="signInTest"/>
+          <include name="setUp"/>
+          <include name="afterTestExecution"/>
+        </methods>
+      </class> <!-- com.saal.challenge.WebTest -->
+    </classes>
+  </test> <!-- Test-Execution - Opera Browser(failed) -->
+  <test thread-count="3" verbose="0" name="Test-Execution - Chrome Browser(failed)" parallel="methods">
+    <parameter name="myBrowser" value="Chrome"/>
+    <classes>
+      <class name="com.saal.challenge.WebTest">
+        <methods>
+          <include name="logInTest"/>
+          <include name="checkoutTest"/>
+          <include name="signInTest"/>
+          <include name="setUp"/>
+          <include name="afterTestExecution"/>
+        </methods>
+      </class> <!-- com.saal.challenge.WebTest -->
+    </classes>
+  </test> <!-- Test-Execution - Chrome Browser(failed) -->
+  <test thread-count="3" verbose="0" name="Test-Execution - Firefox Browser(failed)" parallel="methods">
+    <parameter name="myBrowser" value="firefox"/>
+    <classes>
+      <class name="com.saal.challenge.WebTest">
+        <methods>
+          <include name="logInTest"/>
+          <include name="checkoutTest"/>
+          <include name="signInTest"/>
+          <include name="setUp"/>
+          <include name="afterTestExecution"/>
+        </methods>
+      </class> <!-- com.saal.challenge.WebTest -->
+    </classes>
+  </test> <!-- Test-Execution - Firefox Browser(failed) -->
+</suite> <!-- Failed suite [Parallel test suite] -->

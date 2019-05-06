@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parallel test suite]" parallel="methods" thread-count="5">
+	<test name="Test-challenge(failed)">
+		<classes>
+			<class name="com.saal.challenge.WebTest">
+				<methods>
+					<include name="logInTest" />
+					<include name="checkoutTest" /> 
+					<include name="signInTest" />
+				</methods>
+				</class>
+		</classes>
+	</test> <!-- Test-challenge(failed) -->
+</suite> <!-- Failed suite [Parallel test suite] -->
