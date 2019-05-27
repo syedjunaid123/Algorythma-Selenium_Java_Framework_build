@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel test suite" parallel="methods" thread-count="3" preserve-order="true">
+
+
+  <!-- <test name="Test-Execution - Opera Browser">
+  <parameter name="myBrowser" value="Opera"/>
+    <classes>
+      <class name="com.saal.qa.base.SaalTestCases"/>
+    </classes>
+  </test>
+  
+   
+  <test name="Test-Execution - Chrome Browser">
+  	<parameter name="myBrowser" value="Chrome"/>
+    	<classes>
+     		 <class name="com.saal.qa.base.SaalTestCases"/>
+    	</classes>
+ 	 </test>
+ 	 
+ 	 
+  <test name="Test-Execution - Firefox Browser">
+  	<parameter name="myBrowser" value="firefox"/>
+    	<classes>
+      		<class name="com.saal.qa.base.SaalTestCases"/>
+   		 </classes>
+ 	 </test> -->
+</suite>
